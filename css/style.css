@@ -1,0 +1,691 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.section-space{
+	padding: 80px 0px;
+}
+/******header-section******/
+
+.header-section{
+	padding: 20px 0px 50px 0px;
+	background: url(../images/top.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .menu li{
+	list-style-type: none;
+	text-align: right;
+	padding: 10px 0px;
+}
+.header-section .menu li a{
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	transition: all ease 0.3s;
+	text-transform: uppercase;
+	letter-spacing: 2px;			
+}
+.header-section .menu li a:hover{
+	letter-spacing: 1px;
+	color: #4ba9ff;
+}
+.header-section .bg-dark {
+    background-color: transparent!important;
+}
+.header-section .navbar button{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.header-section .navbar button i{
+	margin-left: 10px;
+	color: #4ba9ff;
+	font-size: 30px;
+	transform: translate(0px, 5px);
+}
+.header-section button:focus {
+    outline: none!important;
+}
+.header-section .header-inner h1{
+	padding: 230px 0px;
+	font-size: 65px;
+	line-height: 75px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0em 0.47em 0.68em rgb(0 0 0 / 73%);
+}
+.header-section .header-inner h1 span{
+	color: #4ba9ff;
+}
+.header-section .header-inner{
+	text-align: center;
+}
+.header-section .header-inner .arrows .arrows-1 a i{
+	color: #7a5cb7;
+	font-size: 25px;
+	margin-bottom: -20px;
+}
+.header-section .header-inner .arrows .arrows-2 a i{
+	color: #a99fd2;
+	font-size: 25px;
+	margin-bottom: -20px;
+}
+.header-section .header-inner .arrows .arrows-3 a i{
+	color: #4ba4fb;
+	font-size: 25px;
+	margin-bottom: -20px;
+}
+
+/******about-section******/
+.about-section .about-left h2{
+	font-size: 45px;
+	line-height: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #40485a;
+	text-align: lrft; 
+}
+.about-section .about-left .divider{
+	height: 3px;
+	width: 70px;
+	background: #4a24a8;
+	margin-top: 20px;
+}
+.about-section .about-right p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	color: #6a707d;
+	font-weight: 400;	
+}
+/******gallery-section******/
+.gallery-section .container{
+	max-width: 99%;
+	padding: 0px;
+	margin: 0px;
+}
+.gallery-section img{
+	width: 100%;
+}
+.gallery-section .container .col-lg-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/******card-section******/
+.card-section h2{
+	font-size: 45px;
+	line-height: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #40485a;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.card-section .divider{
+	height: 3px;
+	width: 70px;
+	background: #4a24a8;
+	margin: 0 auto;	
+}
+.card-section .title{
+	text-align: center;
+}
+.card-section .cards{
+	margin-top: 50px;
+}
+.card-section .cards .card{
+	padding: 35px;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	transition: all ease 0.3s;
+}
+.card-section .cards .card:hover{
+	box-shadow: 0px 20px 40px -5px rgb(110 130 208 / 30%);
+}
+.card-section .cards .card img{
+	width: 60%;
+	margin: 0 auto;
+	transition: all ease 0.3s;
+}
+.card-section .cards .card h4{
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #40485a;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.card-section .cards .card p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	color: #6a707d;
+	font-weight: 400;
+}
+.card-section .cards .card-1 img{
+	width: 50%;
+}
+.card-section .cards .card-active{
+	box-shadow: 0px 20px 40px -5px rgb(110 130 208 / 30%);
+}
+.card-section .cards .card-active img{
+	width: 80%;
+} 
+.card-section button{
+	padding: 0px 0px 3px 0px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #4ca9ff;
+	text-transform: uppercase;
+	border-bottom: 2px solid #4ca9ff;
+	background: transparent;
+	border-radius: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+.card-section button:hover{
+	background: transparent;
+	color: #4ca9ff;
+}
+.card-section .button{
+	text-align: center;
+	margin-top: 50px;
+}
+/******mobile-section******/
+.mobile-section{
+	background: #3b1c9a;	
+}
+.mobile-section .mobile-left h2{
+	font-size: 45px;
+	line-height: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.mobile-section .mobile-left p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	color: #c0c1f5;
+	font-weight: 400;
+}
+.mobile-section .mobile-left span{
+	color: #4ca9ff;
+}
+.mobile-section .mobile-left button{
+	margin-top: 40px;
+	border-radius: 50px;
+	padding: 8px 25px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	background: #4ca9ff;
+	text-transform: uppercase;
+	box-shadow: 0px 20px 40px -5px rgb(110 130 208 / 80%);
+}
+.mobile-section .mobile-down{
+	border-top: 2px solid #785ebc;	
+}
+.mobile-section .mobile-down .col-lg-3{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.mobile-section .mobile-item{
+	border-top: 5px solid transparent;
+	margin-top: -4px;
+	transition: all ease 0.3s;
+}
+.mobile-section .mobile-item:hover{
+	border-color: #fff;
+}
+.mobile-section .mobile-item p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	color: #cfd2ff;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 25px 0px 0px 0px;
+}
+.mobile-section .mobile-item h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+}
+/******twitter-section******/
+.twitter-section{
+	text-align: center;
+}
+.twitter-section .twitter-slider{
+	margin-top: 50px;
+}
+.twitter-section .owl-carousel .item{
+	width: 62%;
+	margin: 50px auto;
+	box-shadow: 0px 20px 40px -5px rgb(110 130 208 / 30%);
+	padding: 50px;
+	border-radius: 10px;
+}
+.twitter-section .owl-carousel .item p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #40485a;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+.twitter-section .owl-carousel .item span{
+	color: #58afff;
+}
+.twitter-section .owl-carousel .item .twitter-user{
+	width: 300px;
+	margin: 0 auto;
+}
+.twitter-section .owl-carousel .item .twitter-user h5{
+		text-align: left;
+		font-size: 14px ;
+		font-family: 'Roboto', sans-serif;
+		line-height: 14px;
+		font-weight: 400;
+		color: #4d5465;
+}
+.twitter-section .owl-carousel .item .twitter-user h6{
+		text-align: left;
+		font-size: 14px ;
+		font-family: 'Roboto', sans-serif;
+		line-height: 14px;
+		font-weight: 400;
+		color: #58afff;
+}
+.twitter-section .owl-carousel .item .twitter-user .col-10{
+	padding-left: 30px;
+}
+.twitter-section .owl-carousel .item .twitter-user img{
+	width: 50px;
+}
+/******footer-section******/
+.footer-section{
+	background: #351b89;
+	padding: 80px 0px 10px 0px;
+}
+.footer-section .footer-left{
+	text-align: left;
+}
+.footer-section .footer-left p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #a7a3e2;
+	font-weight: 300;
+	margin-top: 30px;	
+}
+.footer-section .footer-right{
+	text-align: right;
+}
+.footer-section .footer-right button{
+	margin-top: 60px;
+	border-radius: 50px;
+	padding: 8px 25px;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	background: #4ca9ff;
+	text-transform: uppercase;
+	box-shadow: 0px 20px 40px -5px rgb(110 130 208 / 80%);
+	margin-bottom: 80px;
+}
+.footer-section .footer-iner{
+	border-top: 1px solid #785ebc;	
+}
+.footer-section .copyright-left p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	margin-top: 20px;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+.footer-section .copyright-left p span{
+	color: #4ba9ff;
+}
+.footer-section .copyright-right p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: right;
+	
+}
+.footer-section .copyright-right p span{
+	color: #4ba9ff;
+}
+.footer-section .copyright-right i{
+	color: #4ba9ff;
+}
+.footer-section .footer-top .col-lg-7{
+	padding-left: 0px!important;
+}
+.footer-section .footer-top .col-lg-5{
+	padding-right: 0px!important;
+}
+.footer-section .footer-iner .col-lg-6{
+	padding-left: 0px!important;
+}
+.footer-section .footer-iner .col-lg-6{
+	padding-right: 0px!important;
+}
+
+
+/******responsive start********/
+
+@media (min-width: 279px) and (max-width: 319px) {
+	.navbar a{
+		width: 50%;
+	}
+	.navbar a img{
+		width: 90%;
+	}
+  
+  .mobile-section .mobile-right img{
+	 	width: 100%;
+	 }
+	 .header-section .header-inner h1 {
+	    padding: 130px 0px;
+	    font-size: 50px;
+	    line-height: 60px;
+ 	} 
+ 	.section-space {
+	    padding: 40px 0px;
+	}
+  	.about-section .about-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.about-section .about-left .divider{
+		margin-bottom: 20px;
+	}
+	.card-section h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.card-section .cards .card {
+	    margin: 20px 0px;
+	}
+	.mobile-section .mobile-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.mobile-section .mobile-left button{
+		margin-bottom: 40px;
+	} 
+
+	.mobile-section .mobile-down {
+	    width: 95%;
+	    margin: 0 auto;
+	}
+	.twitter-section .twitter-slider {
+	    margin-top: 20px;
+	}
+	.twitter-section .owl-carousel .item{
+		width: 95%;
+		padding: 30px;
+	}
+	.footer-section{
+		padding: 40px 20px 0px 20px;
+	}
+	.footer-section .footer-right {
+	    text-align: left;
+	}
+	.footer-section .footer-right button {
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	    margin-left: -20px;
+	}
+	.footer-section .copyright-right p{
+		text-align: left;
+	}
+	.gallery-section .container{
+		max-width: 94.5%;
+	}
+  
+}
+
+/******responsive start********/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	 .mobile-section .mobile-right img{
+	 	width: 100%;
+	 }
+	 .header-section .header-inner h1 {
+	    padding: 130px 0px;
+	    font-size: 50px;
+	    line-height: 60px;
+ 	} 
+ 	.section-space {
+	    padding: 40px 0px;
+	}
+  	.about-section .about-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.about-section .about-left .divider{
+		margin-bottom: 20px;
+	}
+	.card-section h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.card-section .cards .card {
+	    margin: 20px 0px;
+	}
+	.mobile-section .mobile-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.mobile-section .mobile-left button{
+		margin-bottom: 40px;
+	} 
+
+	.mobile-section .mobile-down {
+	    width: 95%;
+	    margin: 0 auto;
+	}
+	.gallery-section .container{
+		max-width: 95%;
+	}
+	.twitter-section .twitter-slider {
+	    margin-top: 20px;
+	}
+	.twitter-section .owl-carousel .item{
+		width: 95%;
+		padding: 30px;
+	}
+	.footer-section{
+		padding: 40px 20px 0px 20px;
+	}
+	.footer-section .footer-right {
+	    text-align: left;
+	}
+	.footer-section .footer-right button {
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	    margin-left: -20px;
+	}
+	.footer-section .copyright-right p{
+		text-align: left;
+	}
+}
+
+/******responsive start********/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.gallery-section .container{
+			max-width: 96.9%;
+		}
+  
+  .mobile-section .mobile-right img{
+	 	width: 100%;
+	 }
+	 .header-section .header-inner h1 {
+	    padding: 130px 0px;
+	    font-size: 50px;
+	    line-height: 60px;
+ 	} 
+ 	.section-space {
+	    padding: 40px 0px;
+	}
+  	.about-section .about-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.about-section .about-left .divider{
+		margin-bottom: 20px;
+	}
+	.card-section h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.card-section .cards .card {
+	    margin: 20px 0px;
+	}
+	.mobile-section .mobile-left h2 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.mobile-section .mobile-left button{
+		margin-bottom: 40px;
+	} 
+
+	.mobile-section .mobile-down {
+	    width: 95%;
+	    margin: 0 auto;
+	}
+	.twitter-section .twitter-slider {
+	    margin-top: 20px;
+	}
+	.twitter-section .owl-carousel .item{
+		width: 95%;
+		padding: 30px;
+	}
+	.footer-section{
+		padding: 40px 20px 0px 20px;
+	}
+	.footer-section .footer-right {
+	    text-align: left;
+	}
+	.footer-section .footer-right button {
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	    margin-left: -20px;
+	}
+	.footer-section .copyright-right p{
+		text-align: left;
+	}
+  
+}
+
+/******responsive start********/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.gallery-section .container{
+			max-width: 98%;
+		}
+  
+  .mobile-section .mobile-right img{
+	 	width: 100%;
+	 }
+	 .header-section .header-inner h1 {
+	    padding: 180px 0px;
+	    font-size: 55px;
+	    line-height: 65px;
+ 	} 
+ 	.section-space {
+	    padding: 40px 0px;
+	}
+  	.about-section .about-left h2 {
+	    font-size: 45px;
+	    line-height: 55px;
+	}
+	.about-section .about-left .divider{
+		margin-bottom: 20px;
+	}
+	.card-section h2 {
+	    font-size: 45px;
+	    line-height: 55px;
+	}
+	.card-section .cards .card {
+	    margin: 20px 0px;
+	}
+	.mobile-section .mobile-left h2 {
+	    font-size: 45px;
+	    line-height: 55px;
+	}
+	.mobile-section .mobile-left button{
+		margin-bottom: 40px;
+	} 
+
+	.mobile-section .mobile-down {
+	    width: 95%;
+	    margin: 0 auto;
+	}
+	.twitter-section .twitter-slider {
+	    margin-top: 20px;
+	}
+	.twitter-section .owl-carousel .item{
+		width: 95%;
+		padding: 30px;
+	}
+	.footer-section{
+		padding: 40px 20px 0px 20px;
+	}
+	.footer-section .footer-right {
+	    text-align: left;
+	}
+	.footer-section .footer-right button {
+	    margin-top: 30px;
+	    margin-bottom: 50px;
+	    margin-left: -20px;
+	}
+	.footer-section .copyright-right p{
+		text-align: left;
+	}
+	.mobile-section .mobile-down .col-lg-3 {
+		width: 50%;
+	}
+  
+}									
